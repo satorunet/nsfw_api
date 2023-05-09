@@ -62,7 +62,7 @@ def single_classify():
         result = classify_from_urls([single_image]).next()
         return jsonify(result)
     else:
-        return "Missing  url parameter", 400
+        return "unko url dappe", 400
 
 
 def classify_from_urls(image_entries):
